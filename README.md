@@ -2,7 +2,7 @@
 
 run
 
-````
+```
 yarn watch:ts
 ```
 
@@ -12,6 +12,6 @@ run
 
 ```
 yarn start
-````
+```
 
 to run the js file
