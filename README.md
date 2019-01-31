@@ -1,17 +1,7 @@
 # TypeScript template
 
-run
+**type**
 
-```
-yarn watch:ts
-```
+`yarn start`
 
-to watch the typescript build file.
-
-run
-
-```
-yarn start
-```
-
-to run the js file
+to run the project
