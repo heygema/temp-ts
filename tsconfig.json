@@ -1,11 +1,13 @@
 {
+  "extends": "tsconfig-kodefox",
   "compilerOptions": {
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "allowSyntheticDefaultImports": true,
     "module": "commonjs",
-    "target": "ES2017",
-    "outDir": "lib",
-    "rootDir": "src"
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "outDir": "./build",
+    "typeRoots": [
+      "node_modules/@types",
+      "custom_types"
+    ] /* List of folders to include type definitions from. */
   }
 }
